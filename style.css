@@ -1,0 +1,118 @@
+:root {
+    --white-color-bold: #F9FAF8;
+    --white-color: #E5E7EB;
+    --black-color: #1F2937;
+    --blue-color: #3882F6;
+    --purple-color: #2B173C;
+}
+body {
+    margin: 0%;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+.all-container {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+}
+.content-top {
+    background-color: var(--purple-color);
+    box-sizing: border-box;
+    padding: 5px 100px 5px 100px;
+    width: 100%;
+    color: white;
+    min-height: 500px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+}
+.icon > p {
+    font-size: 24px;
+    color: var(--white-color-bold);
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.ul-list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+.introduction {
+    display: flex;
+    box-sizing: border-box;
+    margin: 50px 0 75px 0;
+}
+.intro-text {
+    margin-right: 20px;
+}
+.intro-text > h1 {
+    font-size: 48px;
+    color: var(--white-color-bold);
+    margin: 0%;
+}
+.intro-text > p {
+    font-size: 18px;
+    color: var(--white-color);
+    text-align: left;
+    margin: 0%;
+}
+.intro-text > button {
+    background-color: var(--blue-color);
+    color: white;
+    font-size: 18px;
+    padding: 8px 32px 8px 32px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.content-image {
+    min-height: 500px;
+    padding: 5px 100px 5px 100px;
+}
+.content-image > p {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--black-color);
+    text-align: center;
+}
+.boxes-parent {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+.boxes-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#img-content2 {
+    border-radius: 10%;
+    width: 200px;
+    height: 200px; 
+}
+.boxes-child > p {
+    text-align: center;
+    weight: 
+}
